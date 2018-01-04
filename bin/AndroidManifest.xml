@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rss"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rss"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.rss.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.rss.Act2"
+            android:label="@string/title_activity_act2" >
+        </activity>
+        <activity
+            android:name="com.example.rss.Sports"
+            android:label="@string/title_activity_sports" >
+        </activity>
+        <activity
+            android:name="com.example.rss.Ent"
+            android:label="@string/title_activity_ent" >
+        </activity>
+        <activity
+            android:name="com.example.rss.Pol"
+            android:label="@string/title_activity_pol" >
+        </activity>
+        <activity
+            android:name="com.example.rss.Exit"
+            android:label="@string/title_activity_exit" >
+        </activity>
+        <activity
+            android:name="com.example.rss.D1"
+            android:label="@string/title_activity_d1" >
+        </activity>
+        <activity
+            android:name="com.example.rss.D2"
+            android:label="@string/title_activity_d2" >
+        </activity>
+        <activity
+            android:name="com.example.rss.D3"
+            android:label="@string/title_activity_d3" >
+        </activity>
+        <activity
+            android:name="com.example.rss.D4"
+            android:label="@string/title_activity_d4" >
+        </activity>
+        <activity
+            android:name="com.example.rss.D5"
+            android:label="@string/title_activity_d5" >
+        </activity>
+        <activity
+            android:name="com.example.rss.D6"
+            android:label="@string/title_activity_d6" >
+        </activity>
+        <activity
+            android:name="com.example.rss.D7"
+            android:label="@string/title_activity_d7" >
+        </activity>
+        <activity
+            android:name="com.example.rss.D8"
+            android:label="@string/title_activity_d8" >
+        </activity>
+        <activity
+            android:name="com.example.rss.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.rss.Tech"
+            android:label="@string/title_activity_tech" >
+        </activity>
+    </application>
+
+</manifest>
